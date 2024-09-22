@@ -53,7 +53,7 @@ function limparCampos() {
     document.getElementById("outResposta").textContent = "";
     //posiciona e joga o foco no elemento inNome
     document.getElementById("inNome").focus();
-    img.src = "img/peso_ideal1.jpg";
+    img.src = "peso_ideal1.jpg";
 }
 var btLimpar = document.getElementById("btLimpar");
 btLimpar.addEventListener('click', limparCampos);
