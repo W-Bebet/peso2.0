@@ -29,10 +29,10 @@ function calcularPeso() {
 
     //se masculino true
     if(masculino) {
-        img.src = "img/ex3_2_peso_ideal3.jpg";
+        img.src = "ex3_2_peso_ideal3.jpg";
         var peso = 22 * Math.pow(altura, 2);
     } else {
-        img.src = "img/ex3_2_peso_ideal2.jpg";
+        img.src = "ex3_2_peso_ideal2.jpg";
         var peso = 21 * Math.pow(altura, 2);
     }
     //apresenta a resposta e altera o conteudo de outResposta
