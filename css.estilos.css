@@ -1,0 +1,33 @@
+img {float: left; height: 300px;}
+h1 {border-bottom-style: inset;}
+
+
+/* Centralizar o conteúdo */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Tornar a imagem responsiva */
+img {
+    max-width: 100%;
+    height: 2;
+}
+
+/* Estilizar os inputs e botões */
+input[type="text"], input[type="button"], input[type="radio"] {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilizar o container dos inputs */
+p {
+    margin: 10px 0;
+}
